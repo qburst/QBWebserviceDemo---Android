@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">QBWebserviceDemo</string>
+    <string name="kNetworkError">No Network Detected. Please check your network settings</string>
+    <string name="kTimeoutError">Server Timed out. Please try again later</string>
+    <string name="kApiError">Server Error. Please try again</string>
+
+</resources>

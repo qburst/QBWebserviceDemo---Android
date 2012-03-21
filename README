@@ -1,6 +1,5 @@
 This project demonstrates a pattern for easily handling webservices in your Android applications.
 
-
 Communicating with a back end web service can be split up into 3 parts.
 
 1. Base Web Service 
@@ -18,3 +17,7 @@ The parameters of a request and response can be bundled in the form of POJOs. Th
 Putting it all together
 
 For sending an API request, a the required parameter values and sent to the API Class for that request by the caller class. The API class will process the input parameter and build the appropriate request bean. The API class then forwards the request to the Base Web service class along with the response class signature that is expected back. Upon receiving the response, The API class does any post processing logic on the response bean and forwards it to the caller class.
+
+License
+
+This code is licensed under BSD License. The text of the license is available in the README file.
